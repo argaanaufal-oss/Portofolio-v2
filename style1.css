@@ -1,0 +1,97 @@
+body{
+  background: linear-gradient(-45deg, rgb(0, 0, 0),rgb(0, 0, 139),rgb(0, 0, 255),rgb(0, 0, 0));
+  background-size: 800% 800%;
+  animation: bgMove 5s ease infinite;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@keyframes bgMove {
+  0% {background-position: 0% 50%;}
+  0% {background-position: 100% 50%;}
+  0% {background-position: 0% 50%;}
+}
+
+.h1{
+  color: white;
+  margin-top: 240px;
+  width: 10ch;
+  text-wrap: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(20) infinite alternate-reverse;
+}
+
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+}
+
+.about{
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.proyek{
+  margin-top: 0px;
+  display: flex;
+  gap: 20px;
+  border: 2px solid white;
+  background-color: #222;
+}
+
+.p2{
+  display: flex;
+  gap: 20px;
+  background-color: #222;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.h3{
+  margin-top: 400px;
+}
+
+.proyek1{
+  display: flex;
+}
+
+.galeri{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  gap: 20px;
+}
+
+.h2{
+  margin-top: 250px;
+}
+
+.p4{
+  display: flex;
+  font-size: 15px;
+  border: 2px solid white;
+}
+
+.footer{
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  background-color: #222;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
